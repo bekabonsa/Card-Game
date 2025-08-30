@@ -2,3 +2,47 @@
 /target
 *.idea
 *.png
+.git_corrupted/
+
+# === Build output ===
+/target/
+/bin/
+/out/
+/build/
+
+# === IDE project files ===
+*.iml
+.idea/
+*.ipr
+*.iws
+.vscode/
+.project
+.classpath
+.settings/
+
+# === OS junk files ===
+.DS_Store
+Thumbs.db
+
+# === Logs and temporary files ===
+*.log
+*.tmp
+*.swp
+
+# === Backup Git folder ===
+.git_corrupted/
+
+# === Java-specific ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Gradle / Maven ===
+.gradle/
+/mvnw
+/mvnw.cmd
+!gradle/wrapper/gradle-wrapper.jar
+
+# === Other ===
+*.bak
